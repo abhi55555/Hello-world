@@ -39,7 +39,7 @@ p1.age = 100
 #del p1
 print(p1.age)
 print('-----------')
-
+print(' *_* ')
 # import numpy as np
 
 # a = np.array([12, 23], [45, 56])
