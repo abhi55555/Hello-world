@@ -12,8 +12,8 @@ with smtplib.SMTP('smtp.gmail.com', 587) as smtp:
 
     smtp.login(EMAIL_ADDRESS, EMAIL_PASSWORD)
 
-    subject = 'hiii'
-    body = 'hiiiiiiiiii'
+    subject = 'Sample email'
+    body = 'This mail is send by running simple python program'
 
     msg = f'Subject: {subject} \n\n {body}'
 
